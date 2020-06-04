@@ -5,8 +5,8 @@
    Tutorial 5
    Tutorial Case
    
-   Author:   
-   Date:     
+   Author:   Amiya Mayes
+   Date:     06-04-2020
    
    Filename: tf_styles1.css
    
@@ -145,6 +145,13 @@ body > footer {
 
 /* Pulldown Menu Styles */
 
+ul.submenu {
+   display: none;
+}
+
+a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
+   display: block;
+}
 
 
 
